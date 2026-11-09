@@ -1,0 +1,372 @@
+nohup: ignoring input
+Device: cuda NVIDIA H200 NVL
+40 train regions, 7 val regions, 756 val tiles | 30 epochs per experiment
+
+[1/9] unet_resnet34_adamw  (Unet, resnet34, adamw, lr 0.0006)
+  [unet_resnet34_adamw] ep   1 | loss 1.398/1.025 | mIoU 0.427/0.616 | 0.3 min *
+  [unet_resnet34_adamw] ep   2 | loss 0.736/1.622 | mIoU 0.642/0.461 | 0.5 min
+  [unet_resnet34_adamw] ep   3 | loss 0.624/1.037 | mIoU 0.661/0.558 | 0.8 min
+  [unet_resnet34_adamw] ep   4 | loss 0.594/0.794 | mIoU 0.668/0.659 | 1.1 min *
+  [unet_resnet34_adamw] ep   5 | loss 0.533/0.912 | mIoU 0.694/0.635 | 1.3 min
+  [unet_resnet34_adamw] ep   6 | loss 0.540/0.779 | mIoU 0.689/0.663 | 1.6 min *
+  [unet_resnet34_adamw] ep   7 | loss 0.506/1.003 | mIoU 0.707/0.611 | 1.9 min
+  [unet_resnet34_adamw] ep   8 | loss 0.476/1.013 | mIoU 0.722/0.618 | 2.1 min
+  [unet_resnet34_adamw] ep   9 | loss 0.464/0.839 | mIoU 0.726/0.661 | 2.4 min
+  [unet_resnet34_adamw] ep  10 | loss 0.455/0.944 | mIoU 0.728/0.640 | 2.6 min
+  [unet_resnet34_adamw] ep  11 | loss 0.496/0.977 | mIoU 0.712/0.616 | 2.9 min
+  [unet_resnet34_adamw] ep  12 | loss 0.463/0.919 | mIoU 0.726/0.639 | 3.1 min
+  [unet_resnet34_adamw] ep  13 | loss 0.447/0.824 | mIoU 0.732/0.666 | 3.4 min *
+  [unet_resnet34_adamw] ep  14 | loss 0.436/0.951 | mIoU 0.737/0.639 | 3.7 min
+  [unet_resnet34_adamw] ep  15 | loss 0.427/1.155 | mIoU 0.743/0.604 | 3.9 min
+  [unet_resnet34_adamw] ep  16 | loss 0.416/0.843 | mIoU 0.748/0.653 | 4.2 min
+  [unet_resnet34_adamw] ep  17 | loss 0.414/0.834 | mIoU 0.748/0.658 | 4.4 min
+  [unet_resnet34_adamw] ep  18 | loss 0.409/0.865 | mIoU 0.751/0.661 | 4.7 min
+  [unet_resnet34_adamw] ep  19 | loss 0.403/0.854 | mIoU 0.754/0.655 | 4.9 min
+  [unet_resnet34_adamw] ep  20 | loss 0.399/0.893 | mIoU 0.755/0.654 | 5.2 min
+  [unet_resnet34_adamw] ep  21 | loss 0.398/0.865 | mIoU 0.755/0.652 | 5.4 min
+  [unet_resnet34_adamw] ep  22 | loss 0.390/0.865 | mIoU 0.762/0.657 | 5.7 min
+  [unet_resnet34_adamw] ep  23 | loss 0.391/0.888 | mIoU 0.760/0.655 | 5.9 min
+  [unet_resnet34_adamw] ep  24 | loss 0.385/0.851 | mIoU 0.763/0.658 | 6.2 min
+  [unet_resnet34_adamw] ep  25 | loss 0.384/0.934 | mIoU 0.764/0.649 | 6.4 min
+  [unet_resnet34_adamw] ep  26 | loss 0.379/0.941 | mIoU 0.765/0.647 | 6.7 min
+  [unet_resnet34_adamw] ep  27 | loss 0.379/0.905 | mIoU 0.767/0.655 | 7.0 min
+  [unet_resnet34_adamw] ep  28 | loss 0.378/0.932 | mIoU 0.767/0.650 | 7.2 min
+  [unet_resnet34_adamw] ep  29 | loss 0.381/0.905 | mIoU 0.765/0.654 | 7.5 min
+  [unet_resnet34_adamw] ep  30 | loss 0.378/0.873 | mIoU 0.765/0.659 | 7.7 min
+[1/9] unet_resnet34_adamw: best val mIoU 0.6659 at epoch 13, 7.7 min
+
+[2/9] unetpp_resnet34_adamw  (UnetPlusPlus, resnet34, adamw, lr 0.0006)
+  [unetpp_resnet34_adamw] ep   1 | loss 1.576/1.059 | mIoU 0.362/0.628 | 0.4 min *
+  [unetpp_resnet34_adamw] ep   2 | loss 0.751/1.052 | mIoU 0.656/0.573 | 0.9 min
+  [unetpp_resnet34_adamw] ep   3 | loss 0.610/0.793 | mIoU 0.670/0.658 | 1.3 min *
+  [unetpp_resnet34_adamw] ep   4 | loss 0.576/1.167 | mIoU 0.678/0.571 | 1.8 min
+  [unetpp_resnet34_adamw] ep   5 | loss 0.528/0.860 | mIoU 0.698/0.646 | 2.3 min
+  [unetpp_resnet34_adamw] ep   6 | loss 0.512/1.174 | mIoU 0.703/0.606 | 2.7 min
+  [unetpp_resnet34_adamw] ep   7 | loss 0.489/1.263 | mIoU 0.715/0.597 | 3.2 min
+  [unetpp_resnet34_adamw] ep   8 | loss 0.459/0.827 | mIoU 0.730/0.654 | 3.6 min
+  [unetpp_resnet34_adamw] ep   9 | loss 0.449/1.270 | mIoU 0.734/0.599 | 4.1 min
+  [unetpp_resnet34_adamw] ep  10 | loss 0.438/0.888 | mIoU 0.737/0.617 | 4.5 min
+  [unetpp_resnet34_adamw] ep  11 | loss 0.478/0.802 | mIoU 0.719/0.652 | 4.9 min
+nohup: ignoring input
+Device: cuda NVIDIA H200 NVL
+40 train regions, 7 val regions, 756 val tiles | 30 epochs per experiment
+[1/9] unet_resnet34_adamw: already done, skipping
+
+[2/9] unetpp_resnet34_adamw  (UnetPlusPlus, resnet34, adamw, lr 0.0006)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  [unetpp_resnet34_adamw] ep   1 | loss 1.576/1.059 | mIoU 0.362/0.628 | 0.5 min *
+  [unetpp_resnet34_adamw] ep   2 | loss 0.755/1.187 | mIoU 0.654/0.518 | 0.9 min
+  [unetpp_resnet34_adamw] ep   3 | loss 0.637/0.894 | mIoU 0.658/0.625 | 1.3 min
+  [unetpp_resnet34_adamw] ep   4 | loss 0.564/0.989 | mIoU 0.682/0.612 | 1.7 min
+  [unetpp_resnet34_adamw] ep   5 | loss 0.524/0.821 | mIoU 0.698/0.640 | 2.1 min *
+  [unetpp_resnet34_adamw] ep   6 | loss 0.493/0.952 | mIoU 0.713/0.615 | 2.5 min
+  [unetpp_resnet34_adamw] ep   7 | loss 0.502/0.737 | mIoU 0.708/0.668 | 2.9 min *
+  [unetpp_resnet34_adamw] ep   8 | loss 0.464/0.776 | mIoU 0.727/0.665 | 3.3 min
+  [unetpp_resnet34_adamw] ep   9 | loss 0.450/0.903 | mIoU 0.733/0.643 | 3.7 min
+  [unetpp_resnet34_adamw] ep  10 | loss 0.442/1.095 | mIoU 0.735/0.619 | 4.1 min
+  [unetpp_resnet34_adamw] ep  11 | loss 0.476/1.001 | mIoU 0.721/0.620 | 4.5 min
+  [unetpp_resnet34_adamw] ep  12 | loss 0.437/0.947 | mIoU 0.738/0.645 | 4.9 min
+  [unetpp_resnet34_adamw] ep  13 | loss 0.448/0.845 | mIoU 0.731/0.658 | 5.3 min
+  [unetpp_resnet34_adamw] ep  14 | loss 0.437/1.161 | mIoU 0.737/0.616 | 5.7 min
+  [unetpp_resnet34_adamw] ep  15 | loss 0.420/1.188 | mIoU 0.747/0.607 | 6.1 min
+  [unetpp_resnet34_adamw] ep  16 | loss 0.404/0.972 | mIoU 0.754/0.635 | 6.5 min
+  [unetpp_resnet34_adamw] ep  17 | loss 0.400/0.957 | mIoU 0.755/0.633 | 6.9 min
+  [unetpp_resnet34_adamw] ep  18 | loss 0.399/1.279 | mIoU 0.755/0.603 | 7.3 min
+  [unetpp_resnet34_adamw] ep  19 | loss 0.390/1.141 | mIoU 0.760/0.605 | 7.7 min
+  [unetpp_resnet34_adamw] ep  20 | loss 0.386/1.194 | mIoU 0.761/0.605 | 8.1 min
+  [unetpp_resnet34_adamw] ep  21 | loss 0.384/1.184 | mIoU 0.762/0.603 | 8.5 min
+  [unetpp_resnet34_adamw] ep  22 | loss 0.377/1.037 | mIoU 0.768/0.627 | 8.9 min
+  [unetpp_resnet34_adamw] ep  23 | loss 0.377/1.013 | mIoU 0.767/0.633 | 9.3 min
+  [unetpp_resnet34_adamw] ep  24 | loss 0.371/1.082 | mIoU 0.770/0.625 | 9.7 min
+  [unetpp_resnet34_adamw] ep  25 | loss 0.370/1.138 | mIoU 0.771/0.620 | 10.1 min
+  [unetpp_resnet34_adamw] ep  26 | loss 0.367/1.214 | mIoU 0.771/0.613 | 10.5 min
+  [unetpp_resnet34_adamw] ep  27 | loss 0.366/1.054 | mIoU 0.773/0.632 | 10.9 min
+  [unetpp_resnet34_adamw] ep  28 | loss 0.365/1.187 | mIoU 0.773/0.616 | 11.3 min
+  [unetpp_resnet34_adamw] ep  29 | loss 0.368/1.192 | mIoU 0.772/0.615 | 11.7 min
+  [unetpp_resnet34_adamw] ep  30 | loss 0.366/1.098 | mIoU 0.772/0.626 | 12.1 min
+[2/9] unetpp_resnet34_adamw: best val mIoU 0.6685 at epoch 7, 12.1 min
+
+[3/9] deeplabv3p_resnet34_adamw  (DeepLabV3Plus, resnet34, adamw, lr 0.0006)
+  [deeplabv3p_resnet34_adamw] ep   1 | loss 1.109/0.905 | mIoU 0.530/0.609 | 0.2 min *
+  [deeplabv3p_resnet34_adamw] ep   2 | loss 0.634/1.154 | mIoU 0.654/0.525 | 0.3 min
+  [deeplabv3p_resnet34_adamw] ep   3 | loss 0.621/0.800 | mIoU 0.655/0.657 | 0.5 min *
+  [deeplabv3p_resnet34_adamw] ep   4 | loss 0.561/0.810 | mIoU 0.680/0.650 | 0.7 min
+  [deeplabv3p_resnet34_adamw] ep   5 | loss 0.512/0.863 | mIoU 0.699/0.622 | 0.8 min
+  [deeplabv3p_resnet34_adamw] ep   6 | loss 0.538/1.155 | mIoU 0.687/0.564 | 0.9 min
+  [deeplabv3p_resnet34_adamw] ep   7 | loss 0.511/0.812 | mIoU 0.701/0.651 | 1.1 min
+  [deeplabv3p_resnet34_adamw] ep   8 | loss 0.474/0.843 | mIoU 0.719/0.642 | 1.2 min
+  [deeplabv3p_resnet34_adamw] ep   9 | loss 0.464/0.964 | mIoU 0.724/0.623 | 1.4 min
+  [deeplabv3p_resnet34_adamw] ep  10 | loss 0.460/1.030 | mIoU 0.723/0.613 | 1.5 min
+  [deeplabv3p_resnet34_adamw] ep  11 | loss 0.481/0.825 | mIoU 0.715/0.647 | 1.7 min
+  [deeplabv3p_resnet34_adamw] ep  12 | loss 0.468/0.853 | mIoU 0.720/0.655 | 1.8 min
+  [deeplabv3p_resnet34_adamw] ep  13 | loss 0.447/0.810 | mIoU 0.730/0.656 | 2.0 min
+  [deeplabv3p_resnet34_adamw] ep  14 | loss 0.435/1.065 | mIoU 0.736/0.612 | 2.1 min
+  [deeplabv3p_resnet34_adamw] ep  15 | loss 0.426/1.016 | mIoU 0.743/0.622 | 2.2 min
+  [deeplabv3p_resnet34_adamw] ep  16 | loss 0.415/0.958 | mIoU 0.747/0.628 | 2.4 min
+  [deeplabv3p_resnet34_adamw] ep  17 | loss 0.414/1.118 | mIoU 0.747/0.603 | 2.5 min
+  [deeplabv3p_resnet34_adamw] ep  18 | loss 0.409/1.130 | mIoU 0.750/0.606 | 2.7 min
+  [deeplabv3p_resnet34_adamw] ep  19 | loss 0.403/1.102 | mIoU 0.753/0.604 | 2.8 min
+  [deeplabv3p_resnet34_adamw] ep  20 | loss 0.400/1.198 | mIoU 0.754/0.600 | 3.0 min
+  [deeplabv3p_resnet34_adamw] ep  21 | loss 0.398/1.105 | mIoU 0.754/0.611 | 3.1 min
+  [deeplabv3p_resnet34_adamw] ep  22 | loss 0.391/1.181 | mIoU 0.760/0.599 | 3.3 min
+  [deeplabv3p_resnet34_adamw] ep  23 | loss 0.393/1.142 | mIoU 0.758/0.605 | 3.4 min
+  [deeplabv3p_resnet34_adamw] ep  24 | loss 0.387/1.182 | mIoU 0.761/0.601 | 3.5 min
+  [deeplabv3p_resnet34_adamw] ep  25 | loss 0.386/1.195 | mIoU 0.762/0.600 | 3.7 min
+  [deeplabv3p_resnet34_adamw] ep  26 | loss 0.382/1.260 | mIoU 0.763/0.592 | 3.8 min
+  [deeplabv3p_resnet34_adamw] ep  27 | loss 0.382/1.126 | mIoU 0.764/0.609 | 4.0 min
+  [deeplabv3p_resnet34_adamw] ep  28 | loss 0.380/1.250 | mIoU 0.765/0.594 | 4.1 min
+  [deeplabv3p_resnet34_adamw] ep  29 | loss 0.383/1.199 | mIoU 0.763/0.598 | 4.3 min
+  [deeplabv3p_resnet34_adamw] ep  30 | loss 0.381/1.153 | mIoU 0.763/0.604 | 4.4 min
+[3/9] deeplabv3p_resnet34_adamw: best val mIoU 0.6569 at epoch 3, 4.4 min
+
+[4/9] fpn_resnet34_adamw  (FPN, resnet34, adamw, lr 0.0006)
+/home/jovyan/vault/Project/s1-lulc/train_utils.py:317: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scheduler.step()
+  [fpn_resnet34_adamw] ep   1 | loss 1.332/0.927 | mIoU 0.469/0.608 | 0.2 min *
+  [fpn_resnet34_adamw] ep   2 | loss 0.721/1.342 | mIoU 0.629/0.569 | 0.3 min
+  [fpn_resnet34_adamw] ep   3 | loss 0.698/1.057 | mIoU 0.636/0.610 | 0.5 min *
+  [fpn_resnet34_adamw] ep   4 | loss 0.589/0.850 | mIoU 0.675/0.658 | 0.7 min *
+  [fpn_resnet34_adamw] ep   5 | loss 0.535/0.917 | mIoU 0.694/0.638 | 0.9 min
+  [fpn_resnet34_adamw] ep   6 | loss 0.519/1.096 | mIoU 0.702/0.608 | 1.0 min
+  [fpn_resnet34_adamw] ep   7 | loss 0.493/0.954 | mIoU 0.714/0.628 | 1.2 min
+  [fpn_resnet34_adamw] ep   8 | loss 0.475/0.912 | mIoU 0.722/0.637 | 1.4 min
+  [fpn_resnet34_adamw] ep   9 | loss 0.466/0.817 | mIoU 0.726/0.659 | 1.5 min *
+  [fpn_resnet34_adamw] ep  10 | loss 0.457/0.918 | mIoU 0.727/0.641 | 1.7 min
+  [fpn_resnet34_adamw] ep  11 | loss 0.482/1.199 | mIoU 0.718/0.555 | 1.9 min
+  [fpn_resnet34_adamw] ep  12 | loss 0.482/0.820 | mIoU 0.717/0.661 | 2.0 min *
+  [fpn_resnet34_adamw] ep  13 | loss 0.447/0.838 | mIoU 0.733/0.662 | 2.2 min *
+  [fpn_resnet34_adamw] ep  14 | loss 0.439/0.847 | mIoU 0.736/0.654 | 2.4 min
+  [fpn_resnet34_adamw] ep  15 | loss 0.431/0.845 | mIoU 0.742/0.657 | 2.6 min
+  [fpn_resnet34_adamw] ep  16 | loss 0.427/0.812 | mIoU 0.743/0.663 | 2.7 min *
+  [fpn_resnet34_adamw] ep  17 | loss 0.420/1.012 | mIoU 0.746/0.629 | 2.9 min
+  [fpn_resnet34_adamw] ep  18 | loss 0.416/0.881 | mIoU 0.748/0.653 | 3.1 min
+  [fpn_resnet34_adamw] ep  19 | loss 0.410/1.127 | mIoU 0.751/0.617 | 3.3 min
+  [fpn_resnet34_adamw] ep  20 | loss 0.407/0.946 | mIoU 0.751/0.648 | 3.4 min
+  [fpn_resnet34_adamw] ep  21 | loss 0.406/1.032 | mIoU 0.752/0.631 | 3.6 min
+  [fpn_resnet34_adamw] ep  22 | loss 0.399/0.945 | mIoU 0.758/0.642 | 3.8 min
+  [fpn_resnet34_adamw] ep  23 | loss 0.402/0.940 | mIoU 0.755/0.643 | 3.9 min
+  [fpn_resnet34_adamw] ep  24 | loss 0.395/0.971 | mIoU 0.759/0.645 | 4.1 min
+  [fpn_resnet34_adamw] ep  25 | loss 0.395/1.074 | mIoU 0.759/0.633 | 4.2 min
+  [fpn_resnet34_adamw] ep  26 | loss 0.391/1.138 | mIoU 0.759/0.622 | 4.4 min
+  [fpn_resnet34_adamw] ep  27 | loss 0.390/0.944 | mIoU 0.761/0.649 | 4.6 min
+  [fpn_resnet34_adamw] ep  28 | loss 0.389/1.023 | mIoU 0.761/0.636 | 4.7 min
+  [fpn_resnet34_adamw] ep  29 | loss 0.392/1.003 | mIoU 0.760/0.639 | 4.9 min
+  [fpn_resnet34_adamw] ep  30 | loss 0.389/0.945 | mIoU 0.760/0.645 | 5.1 min
+[4/9] fpn_resnet34_adamw: best val mIoU 0.6631 at epoch 16, 5.1 min
+
+[5/9] segformer_mitb2_adamw  (Segformer, mit_b2, adamw, lr 0.0002)
+  [segformer_mitb2_adamw] ep   1 | loss 1.196/0.919 | mIoU 0.471/0.619 | 0.2 min *
+  [segformer_mitb2_adamw] ep   2 | loss 0.588/0.875 | mIoU 0.674/0.616 | 0.4 min
+  [segformer_mitb2_adamw] ep   3 | loss 0.516/0.842 | mIoU 0.703/0.638 | 0.7 min *
+  [segformer_mitb2_adamw] ep   4 | loss 0.485/0.902 | mIoU 0.716/0.623 | 0.9 min
+  [segformer_mitb2_adamw] ep   5 | loss 0.459/1.011 | mIoU 0.727/0.601 | 1.1 min
+  [segformer_mitb2_adamw] ep   6 | loss 0.451/0.927 | mIoU 0.732/0.628 | 1.3 min
+  [segformer_mitb2_adamw] ep   7 | loss 0.441/1.022 | mIoU 0.737/0.608 | 1.5 min
+  [segformer_mitb2_adamw] ep   8 | loss 0.426/1.073 | mIoU 0.744/0.608 | 1.7 min
+  [segformer_mitb2_adamw] ep   9 | loss 0.425/1.025 | mIoU 0.744/0.618 | 1.9 min
+  [segformer_mitb2_adamw] ep  10 | loss 0.424/1.031 | mIoU 0.743/0.613 | 2.1 min
+  [segformer_mitb2_adamw] ep  11 | loss 0.414/1.004 | mIoU 0.749/0.625 | 2.3 min
+  [segformer_mitb2_adamw] ep  12 | loss 0.402/0.954 | mIoU 0.754/0.634 | 2.5 min
+  [segformer_mitb2_adamw] ep  13 | loss 0.404/0.962 | mIoU 0.754/0.633 | 2.7 min
+  [segformer_mitb2_adamw] ep  14 | loss 0.401/0.958 | mIoU 0.755/0.628 | 2.9 min
+  [segformer_mitb2_adamw] ep  15 | loss 0.395/0.975 | mIoU 0.759/0.632 | 3.1 min
+  [segformer_mitb2_adamw] ep  16 | loss 0.386/0.971 | mIoU 0.763/0.631 | 3.3 min
+  [segformer_mitb2_adamw] ep  17 | loss 0.386/1.089 | mIoU 0.762/0.614 | 3.5 min
+  [segformer_mitb2_adamw] ep  18 | loss 0.384/1.036 | mIoU 0.763/0.625 | 3.7 min
+  [segformer_mitb2_adamw] ep  19 | loss 0.380/1.064 | mIoU 0.765/0.622 | 3.9 min
+  [segformer_mitb2_adamw] ep  20 | loss 0.379/1.133 | mIoU 0.765/0.614 | 4.2 min
+  [segformer_mitb2_adamw] ep  21 | loss 0.378/1.018 | mIoU 0.766/0.631 | 4.4 min
+  [segformer_mitb2_adamw] ep  22 | loss 0.373/1.068 | mIoU 0.771/0.624 | 4.6 min
+  [segformer_mitb2_adamw] ep  23 | loss 0.376/1.086 | mIoU 0.768/0.620 | 4.8 min
+  [segformer_mitb2_adamw] ep  24 | loss 0.370/1.045 | mIoU 0.771/0.626 | 5.0 min
+  [segformer_mitb2_adamw] ep  25 | loss 0.370/1.075 | mIoU 0.771/0.622 | 5.2 min
+  [segformer_mitb2_adamw] ep  26 | loss 0.368/1.016 | mIoU 0.771/0.630 | 5.4 min
+  [segformer_mitb2_adamw] ep  27 | loss 0.367/1.043 | mIoU 0.772/0.628 | 5.6 min
+  [segformer_mitb2_adamw] ep  28 | loss 0.366/1.063 | mIoU 0.773/0.625 | 5.8 min
+  [segformer_mitb2_adamw] ep  29 | loss 0.370/1.066 | mIoU 0.771/0.625 | 6.0 min
+  [segformer_mitb2_adamw] ep  30 | loss 0.368/1.058 | mIoU 0.771/0.625 | 6.2 min
+[5/9] segformer_mitb2_adamw: best val mIoU 0.6377 at epoch 3, 6.2 min
+
+[6/9] unet_resnet50_adamw  (Unet, resnet50, adamw, lr 0.0006)
+  [unet_resnet50_adamw] ep   1 | loss 1.614/1.197 | mIoU 0.393/0.600 | 0.3 min *
+  [unet_resnet50_adamw] ep   2 | loss 0.788/1.016 | mIoU 0.639/0.577 | 0.6 min
+  [unet_resnet50_adamw] ep   3 | loss 0.620/0.801 | mIoU 0.665/0.651 | 0.8 min *
+  [unet_resnet50_adamw] ep   4 | loss 0.545/1.015 | mIoU 0.692/0.598 | 1.1 min
+  [unet_resnet50_adamw] ep   5 | loss 0.511/0.818 | mIoU 0.704/0.660 | 1.4 min *
+  [unet_resnet50_adamw] ep   6 | loss 0.590/0.774 | mIoU 0.670/0.660 | 1.7 min
+  [unet_resnet50_adamw] ep   7 | loss 0.509/0.885 | mIoU 0.704/0.638 | 2.0 min
+  [unet_resnet50_adamw] ep   8 | loss 0.500/0.838 | mIoU 0.710/0.639 | 2.3 min
+  [unet_resnet50_adamw] ep   9 | loss 0.475/1.103 | mIoU 0.720/0.609 | 2.5 min
+  [unet_resnet50_adamw] ep  10 | loss 0.462/0.872 | mIoU 0.724/0.652 | 2.8 min
+  [unet_resnet50_adamw] ep  11 | loss 0.464/0.824 | mIoU 0.725/0.654 | 3.1 min
+  [unet_resnet50_adamw] ep  12 | loss 0.441/0.901 | mIoU 0.735/0.644 | 3.4 min
+  [unet_resnet50_adamw] ep  13 | loss 0.436/0.849 | mIoU 0.737/0.658 | 3.6 min
+  [unet_resnet50_adamw] ep  14 | loss 0.426/0.840 | mIoU 0.742/0.658 | 3.9 min
+  [unet_resnet50_adamw] ep  15 | loss 0.417/0.946 | mIoU 0.748/0.647 | 4.2 min
+  [unet_resnet50_adamw] ep  16 | loss 0.406/0.917 | mIoU 0.753/0.646 | 4.5 min
+  [unet_resnet50_adamw] ep  17 | loss 0.407/0.927 | mIoU 0.752/0.650 | 4.7 min
+  [unet_resnet50_adamw] ep  18 | loss 0.400/0.921 | mIoU 0.755/0.647 | 5.0 min
+  [unet_resnet50_adamw] ep  19 | loss 0.393/0.912 | mIoU 0.758/0.653 | 5.3 min
+  [unet_resnet50_adamw] ep  20 | loss 0.389/0.917 | mIoU 0.760/0.649 | 5.6 min
+  [unet_resnet50_adamw] ep  21 | loss 0.388/0.950 | mIoU 0.760/0.643 | 5.8 min
+  [unet_resnet50_adamw] ep  22 | loss 0.383/0.903 | mIoU 0.765/0.655 | 6.1 min
+  [unet_resnet50_adamw] ep  23 | loss 0.382/0.921 | mIoU 0.765/0.652 | 6.4 min
+  [unet_resnet50_adamw] ep  24 | loss 0.376/0.905 | mIoU 0.768/0.654 | 6.7 min
+  [unet_resnet50_adamw] ep  25 | loss 0.374/0.928 | mIoU 0.769/0.649 | 7.0 min
+  [unet_resnet50_adamw] ep  26 | loss 0.370/0.971 | mIoU 0.769/0.643 | 7.2 min
+nohup: ignoring input
+Device: cuda NVIDIA H200 NVL
+40 train regions, 7 val regions, 756 val tiles | 30 epochs per experiment
+[1/9] unet_resnet34_adamw: already done, skipping
+[2/9] unetpp_resnet34_adamw: already done, skipping
+[3/9] deeplabv3p_resnet34_adamw: already done, skipping
+[4/9] fpn_resnet34_adamw: already done, skipping
+[5/9] segformer_mitb2_adamw: already done, skipping
+
+[6/9] unet_resnet50_adamw  (Unet, resnet50, adamw, lr 0.0006)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  [unet_resnet50_adamw] ep   1 | loss 1.614/1.197 | mIoU 0.393/0.600 | 0.3 min *
+  [unet_resnet50_adamw] ep   2 | loss 0.788/1.016 | mIoU 0.639/0.577 | 0.6 min
+  [unet_resnet50_adamw] ep   3 | loss 0.620/0.801 | mIoU 0.665/0.651 | 0.9 min *
+  [unet_resnet50_adamw] ep   4 | loss 0.545/1.015 | mIoU 0.692/0.598 | 1.1 min
+  [unet_resnet50_adamw] ep   5 | loss 0.511/0.818 | mIoU 0.704/0.660 | 1.4 min *
+  [unet_resnet50_adamw] ep   6 | loss 0.590/0.774 | mIoU 0.670/0.660 | 1.7 min
+  [unet_resnet50_adamw] ep   7 | loss 0.509/0.885 | mIoU 0.704/0.638 | 2.0 min
+  [unet_resnet50_adamw] ep   8 | loss 0.500/0.838 | mIoU 0.710/0.639 | 2.3 min
+  [unet_resnet50_adamw] ep   9 | loss 0.475/1.103 | mIoU 0.720/0.609 | 2.5 min
+  [unet_resnet50_adamw] ep  10 | loss 0.462/0.944 | mIoU 0.724/0.640 | 2.8 min
+  [unet_resnet50_adamw] ep  11 | loss 0.460/0.976 | mIoU 0.727/0.626 | 3.1 min
+  [unet_resnet50_adamw] ep  12 | loss 0.451/0.773 | mIoU 0.731/0.672 | 3.4 min *
+  [unet_resnet50_adamw] ep  13 | loss 0.455/0.801 | mIoU 0.727/0.661 | 3.7 min
+  [unet_resnet50_adamw] ep  14 | loss 0.431/0.873 | mIoU 0.739/0.650 | 3.9 min
+  [unet_resnet50_adamw] ep  15 | loss 0.420/0.903 | mIoU 0.746/0.646 | 4.2 min
+  [unet_resnet50_adamw] ep  16 | loss 0.410/0.892 | mIoU 0.751/0.651 | 4.5 min
+  [unet_resnet50_adamw] ep  17 | loss 0.407/0.875 | mIoU 0.751/0.655 | 4.7 min
+  [unet_resnet50_adamw] ep  18 | loss 0.402/0.855 | mIoU 0.754/0.661 | 5.0 min
+  [unet_resnet50_adamw] ep  19 | loss 0.395/0.880 | mIoU 0.757/0.659 | 5.3 min
+  [unet_resnet50_adamw] ep  20 | loss 0.392/1.111 | mIoU 0.758/0.611 | 5.6 min
+  [unet_resnet50_adamw] ep  21 | loss 0.392/0.888 | mIoU 0.758/0.653 | 5.8 min
+  [unet_resnet50_adamw] ep  22 | loss 0.386/0.907 | mIoU 0.764/0.652 | 6.1 min
+  [unet_resnet50_adamw] ep  23 | loss 0.385/0.906 | mIoU 0.763/0.652 | 6.4 min
+  [unet_resnet50_adamw] ep  24 | loss 0.378/0.927 | mIoU 0.766/0.649 | 6.7 min
+  [unet_resnet50_adamw] ep  25 | loss 0.377/0.933 | mIoU 0.767/0.650 | 6.9 min
+  [unet_resnet50_adamw] ep  26 | loss 0.373/0.940 | mIoU 0.768/0.647 | 7.2 min
+  [unet_resnet50_adamw] ep  27 | loss 0.372/0.916 | mIoU 0.770/0.654 | 7.5 min
+  [unet_resnet50_adamw] ep  28 | loss 0.370/0.944 | mIoU 0.770/0.648 | 7.8 min
+  [unet_resnet50_adamw] ep  29 | loss 0.373/0.929 | mIoU 0.769/0.650 | 8.0 min
+  [unet_resnet50_adamw] ep  30 | loss 0.371/0.918 | mIoU 0.769/0.652 | 8.3 min
+[6/9] unet_resnet50_adamw: best val mIoU 0.6724 at epoch 12, 8.3 min
+
+[7/9] unet_effb4_adamw  (Unet, tu-efficientnet_b4, adamw, lr 0.0006)
+/home/jovyan/vault/Project/s1-lulc/.venv/lib/python3.11/site-packages/segmentation_models_pytorch/encoders/__init__.py:86: UserWarning: For 'tu-' (timm universal) encoders, `encoder_weights` should be set to True to download pretrained weights or None for random initialization. The pretrained variant is defined in the encoder name i.e 'tu-<model_name>.<pretrained_tag>'. Got encoder_weights='imagenet'.
+  warnings.warn(
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+  [unet_effb4_adamw] ep   1 | loss 1.946/1.298 | mIoU 0.202/0.488 | 0.5 min *
+  [unet_effb4_adamw] ep   2 | loss 0.803/0.872 | mIoU 0.614/0.637 | 0.9 min *
+  [unet_effb4_adamw] ep   3 | loss 0.575/0.854 | mIoU 0.687/0.639 | 1.3 min *
+  [unet_effb4_adamw] ep   4 | loss 0.520/0.995 | mIoU 0.708/0.617 | 1.7 min
+  [unet_effb4_adamw] ep   5 | loss 0.481/0.819 | mIoU 0.723/0.665 | 2.1 min *
+  [unet_effb4_adamw] ep   6 | loss 0.468/0.899 | mIoU 0.729/0.654 | 2.5 min
+  [unet_effb4_adamw] ep   7 | loss 0.451/0.884 | mIoU 0.737/0.646 | 2.9 min
+  [unet_effb4_adamw] ep   8 | loss 0.438/0.995 | mIoU 0.742/0.622 | 3.3 min
+  [unet_effb4_adamw] ep   9 | loss 0.430/0.959 | mIoU 0.745/0.627 | 3.7 min
+  [unet_effb4_adamw] ep  10 | loss 0.429/0.918 | mIoU 0.744/0.638 | 4.1 min
+  [unet_effb4_adamw] ep  11 | loss 0.415/1.062 | mIoU 0.751/0.617 | 4.5 min
+  [unet_effb4_adamw] ep  12 | loss 0.403/1.102 | mIoU 0.757/0.618 | 4.9 min
+  [unet_effb4_adamw] ep  13 | loss 0.402/1.024 | mIoU 0.756/0.630 | 5.3 min
+  [unet_effb4_adamw] ep  14 | loss 0.398/1.088 | mIoU 0.758/0.623 | 5.7 min
+  [unet_effb4_adamw] ep  15 | loss 0.393/1.312 | mIoU 0.762/0.592 | 6.1 min
+  [unet_effb4_adamw] ep  16 | loss 0.387/1.122 | mIoU 0.765/0.626 | 6.5 min
+  [unet_effb4_adamw] ep  17 | loss 0.385/1.013 | mIoU 0.765/0.636 | 6.9 min
+  [unet_effb4_adamw] ep  18 | loss 0.381/1.121 | mIoU 0.766/0.624 | 7.3 min
+  [unet_effb4_adamw] ep  19 | loss 0.376/1.100 | mIoU 0.769/0.629 | 7.7 min
+  [unet_effb4_adamw] ep  20 | loss 0.374/1.183 | mIoU 0.769/0.623 | 8.1 min
+  [unet_effb4_adamw] ep  21 | loss 0.373/1.198 | mIoU 0.769/0.618 | 8.5 min
+  [unet_effb4_adamw] ep  22 | loss 0.368/1.086 | mIoU 0.774/0.630 | 8.9 min
+  [unet_effb4_adamw] ep  23 | loss 0.371/1.100 | mIoU 0.772/0.631 | 9.3 min
+  [unet_effb4_adamw] ep  24 | loss 0.366/1.064 | mIoU 0.774/0.632 | 9.7 min
+  [unet_effb4_adamw] ep  25 | loss 0.366/1.119 | mIoU 0.774/0.630 | 10.1 min
+  [unet_effb4_adamw] ep  26 | loss 0.363/1.194 | mIoU 0.775/0.622 | 10.5 min
+  [unet_effb4_adamw] ep  27 | loss 0.363/1.094 | mIoU 0.776/0.633 | 10.9 min
+  [unet_effb4_adamw] ep  28 | loss 0.362/1.178 | mIoU 0.776/0.625 | 11.3 min
+  [unet_effb4_adamw] ep  29 | loss 0.365/1.169 | mIoU 0.775/0.625 | 11.7 min
+  [unet_effb4_adamw] ep  30 | loss 0.363/1.095 | mIoU 0.774/0.632 | 12.1 min
+[7/9] unet_effb4_adamw: best val mIoU 0.6648 at epoch 5, 12.1 min
+
+[8/9] unet_resnet34_adam  (Unet, resnet34, adam, lr 0.0006)
+  [unet_resnet34_adam] ep   1 | loss 1.398/1.055 | mIoU 0.427/0.598 | 0.2 min *
+  [unet_resnet34_adam] ep   2 | loss 0.724/1.302 | mIoU 0.646/0.463 | 0.5 min
+  [unet_resnet34_adam] ep   3 | loss 0.652/0.964 | mIoU 0.649/0.579 | 0.7 min
+  [unet_resnet34_adam] ep   4 | loss 0.579/1.758 | mIoU 0.675/0.410 | 0.9 min
+  [unet_resnet34_adam] ep   5 | loss 0.618/0.754 | mIoU 0.656/0.662 | 1.2 min *
+  [unet_resnet34_adam] ep   6 | loss 0.540/0.811 | mIoU 0.690/0.656 | 1.4 min
+  [unet_resnet34_adam] ep   7 | loss 0.542/1.181 | mIoU 0.689/0.590 | 1.7 min
+  [unet_resnet34_adam] ep   8 | loss 0.518/0.760 | mIoU 0.700/0.665 | 1.9 min *
+  [unet_resnet34_adam] ep   9 | loss 0.504/0.951 | mIoU 0.706/0.629 | 2.1 min
+  [unet_resnet34_adam] ep  10 | loss 0.494/0.816 | mIoU 0.710/0.660 | 2.4 min
+  [unet_resnet34_adam] ep  11 | loss 0.513/1.089 | mIoU 0.704/0.571 | 2.6 min
+  [unet_resnet34_adam] ep  12 | loss 0.487/1.052 | mIoU 0.714/0.626 | 2.8 min
+  [unet_resnet34_adam] ep  13 | loss 0.481/0.792 | mIoU 0.716/0.655 | 3.1 min
+  [unet_resnet34_adam] ep  14 | loss 0.500/0.753 | mIoU 0.706/0.665 | 3.3 min
+  [unet_resnet34_adam] ep  15 | loss 0.467/0.901 | mIoU 0.724/0.648 | 3.5 min
+  [unet_resnet34_adam] ep  16 | loss 0.448/0.862 | mIoU 0.732/0.641 | 3.7 min
+  [unet_resnet34_adam] ep  17 | loss 0.445/0.884 | mIoU 0.733/0.645 | 4.0 min
+  [unet_resnet34_adam] ep  18 | loss 0.436/0.937 | mIoU 0.738/0.642 | 4.2 min
+  [unet_resnet34_adam] ep  19 | loss 0.429/0.861 | mIoU 0.740/0.651 | 4.4 min
+  [unet_resnet34_adam] ep  20 | loss 0.426/0.970 | mIoU 0.742/0.638 | 4.7 min
+  [unet_resnet34_adam] ep  21 | loss 0.424/0.787 | mIoU 0.743/0.657 | 4.9 min
+  [unet_resnet34_adam] ep  22 | loss 0.421/0.781 | mIoU 0.747/0.665 | 5.1 min *
+  [unet_resnet34_adam] ep  23 | loss 0.415/0.819 | mIoU 0.748/0.657 | 5.4 min
+  [unet_resnet34_adam] ep  24 | loss 0.407/0.819 | mIoU 0.753/0.657 | 5.6 min
+  [unet_resnet34_adam] ep  25 | loss 0.404/0.917 | mIoU 0.754/0.651 | 5.8 min
+  [unet_resnet34_adam] ep  26 | loss 0.398/0.928 | mIoU 0.755/0.646 | 6.1 min
+  [unet_resnet34_adam] ep  27 | loss 0.397/0.864 | mIoU 0.758/0.657 | 6.3 min
+  [unet_resnet34_adam] ep  28 | loss 0.395/0.936 | mIoU 0.758/0.645 | 6.5 min
+  [unet_resnet34_adam] ep  29 | loss 0.397/0.911 | mIoU 0.757/0.648 | 6.8 min
+  [unet_resnet34_adam] ep  30 | loss 0.394/0.875 | mIoU 0.757/0.653 | 7.0 min
+[8/9] unet_resnet34_adam: best val mIoU 0.6654 at epoch 22, 7.0 min
+
+[9/9] unet_resnet34_sgd  (Unet, resnet34, sgd, lr 0.02)
+  [unet_resnet34_sgd] ep   1 | loss 1.200/0.929 | mIoU 0.436/0.617 | 0.2 min *
+  [unet_resnet34_sgd] ep   2 | loss 0.632/1.025 | mIoU 0.654/0.603 | 0.5 min
+  [unet_resnet34_sgd] ep   3 | loss 0.567/1.102 | mIoU 0.681/0.603 | 0.7 min
+  [unet_resnet34_sgd] ep   4 | loss 0.541/0.913 | mIoU 0.691/0.647 | 0.9 min *
+  [unet_resnet34_sgd] ep   5 | loss 0.509/1.067 | mIoU 0.706/0.620 | 1.2 min
+  [unet_resnet34_sgd] ep   6 | loss 0.501/1.055 | mIoU 0.710/0.618 | 1.4 min
+  [unet_resnet34_sgd] ep   7 | loss 0.489/1.051 | mIoU 0.717/0.623 | 1.6 min
+  [unet_resnet34_sgd] ep   8 | loss 0.505/0.890 | mIoU 0.707/0.646 | 1.9 min
+  [unet_resnet34_sgd] ep   9 | loss 0.480/0.906 | mIoU 0.720/0.647 | 2.1 min *
+  [unet_resnet34_sgd] ep  10 | loss 0.469/0.894 | mIoU 0.723/0.650 | 2.3 min *
+  [unet_resnet34_sgd] ep  11 | loss 0.474/1.053 | mIoU 0.721/0.613 | 2.6 min
+  [unet_resnet34_sgd] ep  12 | loss 0.457/1.080 | mIoU 0.729/0.619 | 2.8 min
+  [unet_resnet34_sgd] ep  13 | loss 0.454/1.024 | mIoU 0.730/0.632 | 3.0 min
+  [unet_resnet34_sgd] ep  14 | loss 0.452/0.991 | mIoU 0.731/0.634 | 3.3 min
+  [unet_resnet34_sgd] ep  15 | loss 0.446/1.071 | mIoU 0.735/0.616 | 3.5 min
+  [unet_resnet34_sgd] ep  16 | loss 0.438/1.017 | mIoU 0.739/0.632 | 3.7 min
+  [unet_resnet34_sgd] ep  17 | loss 0.439/0.992 | mIoU 0.737/0.634 | 4.0 min
+  [unet_resnet34_sgd] ep  18 | loss 0.436/1.070 | mIoU 0.739/0.632 | 4.2 min
+  [unet_resnet34_sgd] ep  19 | loss 0.431/0.959 | mIoU 0.741/0.642 | 4.4 min
+  [unet_resnet34_sgd] ep  20 | loss 0.430/1.141 | mIoU 0.741/0.619 | 4.6 min
+  [unet_resnet34_sgd] ep  21 | loss 0.431/1.104 | mIoU 0.740/0.622 | 4.9 min
+  [unet_resnet34_sgd] ep  22 | loss 0.426/1.019 | mIoU 0.745/0.636 | 5.1 min
+  [unet_resnet34_sgd] ep  23 | loss 0.428/1.047 | mIoU 0.743/0.631 | 5.3 min
+  [unet_resnet34_sgd] ep  24 | loss 0.424/1.067 | mIoU 0.745/0.629 | 5.6 min
+  [unet_resnet34_sgd] ep  25 | loss 0.424/1.106 | mIoU 0.745/0.627 | 5.8 min
+  [unet_resnet34_sgd] ep  26 | loss 0.420/1.156 | mIoU 0.746/0.618 | 6.0 min
+  [unet_resnet34_sgd] ep  27 | loss 0.420/1.088 | mIoU 0.748/0.631 | 6.2 min
+  [unet_resnet34_sgd] ep  28 | loss 0.420/1.126 | mIoU 0.747/0.625 | 6.5 min
+  [unet_resnet34_sgd] ep  29 | loss 0.422/1.121 | mIoU 0.746/0.625 | 6.7 min
+  [unet_resnet34_sgd] ep  30 | loss 0.421/1.070 | mIoU 0.745/0.631 | 6.9 min
+[9/9] unet_resnet34_sgd: best val mIoU 0.6503 at epoch 10, 6.9 min
+
+=== Ranking by validation mIoU ===
+                     name        group  best_val_mIoU  best_epoch  params_M  train_minutes
+      unet_resnet50_adamw      encoder          0.672          12    32.522          8.303
+    unetpp_resnet34_adamw architecture          0.668           7    26.079         12.106
+      unet_resnet34_adamw     baseline          0.666          13    24.437          7.734
+       unet_resnet34_adam    optimizer          0.665          22    24.437          6.991
+         unet_effb4_adamw      encoder          0.665           5    19.413         12.062
+       fpn_resnet34_adamw architecture          0.663          16    23.156          5.074
+deeplabv3p_resnet34_adamw architecture          0.657           3    22.439          4.417
+        unet_resnet34_sgd    optimizer          0.650          10    24.437          6.926
+    segformer_mitb2_adamw architecture          0.638           3    24.724          6.198

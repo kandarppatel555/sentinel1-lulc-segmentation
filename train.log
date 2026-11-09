@@ -1,0 +1,147 @@
+nohup: ignoring input
+Input Notebook:  02_train.ipynb
+Output Notebook: 02_train_output.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Device: cuda NVIDIA H200 NVL
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+{'encoder': 'resnet34',
+ 'epochs': 60,
+ 'batch_size': 64,
+ 'samples_per_epoch': 12000,
+ 'lr': 0.0006,
+ 'weight_decay': 0.0001,
+ 'dice_weight': 0.5,
+ 'num_workers': 0}
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+                    pixels  share_%  loss_weight
+Tree cover         6648132   28.178        0.539
+Shrub & grassland  4207275   17.833        0.678
+Cropland           3298905   13.983        0.765
+Built-up           6515542   27.616        0.545
+Bare / sparse       282155    1.196        2.617
+Water              2640951   11.194        0.856
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+train: 40 regions, 480 usable region-months, 12000 crops per epoch
+val:   7 regions, 756 tiles
+
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+config.json:   0%|          | 0.00/156 [00:00<?, ?B/s]
+model.safetensors: reconstructing file:   0%|          |  0.00B / 87.3MB            
+model.safetensors: downloading bytes:           |  0.00B            
+24.4 M parameters
+
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+ep   1 | loss 1.481 / 1.222 | mIoU 0.402 / 0.563 | OA 0.709 | 2.7 min  * saved
+
+ep   2 | loss 0.856 / 0.961 | mIoU 0.637 / 0.627 | OA 0.773 | 5.4 min  * saved
+
+ep   3 | loss 0.655 / 0.911 | mIoU 0.666 / 0.632 | OA 0.763 | 7.8 min  * saved
+
+ep   4 | loss 0.630 / 0.829 | mIoU 0.661 / 0.643 | OA 0.770 | 10.3 min  * saved
+
+ep   5 | loss 0.554 / 0.835 | mIoU 0.687 / 0.649 | OA 0.785 | 13.0 min  * saved
+
+ep   6 | loss 0.579 / 1.178 | mIoU 0.676 / 0.557 | OA 0.688 | 15.6 min
+
+ep   7 | loss 0.536 / 0.835 | mIoU 0.693 / 0.644 | OA 0.793 | 18.3 min
+
+ep   8 | loss 0.505 / 0.918 | mIoU 0.706 / 0.639 | OA 0.782 | 20.7 min
+
+ep   9 | loss 0.480 / 0.954 | mIoU 0.716 / 0.633 | OA 0.788 | 23.1 min
+
+ep  10 | loss 0.475 / 0.846 | mIoU 0.722 / 0.649 | OA 0.791 | 25.7 min
+
+ep  11 | loss 0.457 / 1.218 | mIoU 0.726 / 0.602 | OA 0.776 | 28.3 min
+
+ep  12 | loss 0.452 / 1.463 | mIoU 0.730 / 0.557 | OA 0.754 | 30.6 min
+
+ep  13 | loss 0.535 / 0.821 | mIoU 0.695 / 0.648 | OA 0.782 | 33.0 min
+
+ep  14 | loss 0.476 / 0.872 | mIoU 0.718 / 0.644 | OA 0.790 | 35.5 min
+
+ep  15 | loss 0.444 / 0.933 | mIoU 0.734 / 0.636 | OA 0.788 | 38.1 min
+
+ep  16 | loss 0.489 / 0.777 | mIoU 0.712 / 0.667 | OA 0.794 | 40.7 min  * saved
+
+ep  17 | loss 0.452 / 0.859 | mIoU 0.728 / 0.639 | OA 0.784 | 43.1 min
+
+ep  18 | loss 0.443 / 0.880 | mIoU 0.734 / 0.647 | OA 0.793 | 45.4 min
+
+ep  19 | loss 0.433 / 0.888 | mIoU 0.734 / 0.636 | OA 0.794 | 47.9 min
+
+ep  20 | loss 0.454 / 1.042 | mIoU 0.728 / 0.598 | OA 0.782 | 50.4 min
+
+ep  21 | loss 0.441 / 1.016 | mIoU 0.732 / 0.626 | OA 0.783 | 53.1 min
+
+ep  22 | loss 0.425 / 1.201 | mIoU 0.741 / 0.603 | OA 0.776 | 55.4 min
+
+ep  23 | loss 0.410 / 1.147 | mIoU 0.749 / 0.600 | OA 0.781 | 57.8 min
+
+ep  24 | loss 0.429 / 0.932 | mIoU 0.741 / 0.625 | OA 0.778 | 60.3 min
+
+ep  25 | loss 0.425 / 1.091 | mIoU 0.741 / 0.612 | OA 0.772 | 63.0 min
+
+ep  26 | loss 0.403 / 1.386 | mIoU 0.753 / 0.592 | OA 0.777 | 65.5 min
+
+ep  27 | loss 0.437 / 1.094 | mIoU 0.737 / 0.613 | OA 0.785 | 67.9 min
+
+ep  28 | loss 0.394 / 1.226 | mIoU 0.757 / 0.601 | OA 0.780 | 70.3 min
+
+ep  29 | loss 0.399 / 1.228 | mIoU 0.754 / 0.599 | OA 0.777 | 72.9 min
+
+ep  30 | loss 0.392 / 1.285 | mIoU 0.757 / 0.591 | OA 0.775 | 75.5 min
+
+ep  31 | loss 0.400 / 0.911 | mIoU 0.753 / 0.634 | OA 0.794 | 78.1 min
+
+ep  32 | loss 0.391 / 1.046 | mIoU 0.758 / 0.613 | OA 0.788 | 80.5 min
+
+ep  33 | loss 0.381 / 1.046 | mIoU 0.762 / 0.611 | OA 0.787 | 83.0 min
+
+ep  34 | loss 0.387 / 1.078 | mIoU 0.760 / 0.614 | OA 0.786 | 85.5 min
+
+ep  35 | loss 0.378 / 1.189 | mIoU 0.765 / 0.602 | OA 0.780 | 88.1 min
+
+ep  36 | loss 0.375 / 1.085 | mIoU 0.766 / 0.621 | OA 0.788 | 90.6 min
+
+ep  37 | loss 0.378 / 1.154 | mIoU 0.765 / 0.612 | OA 0.785 | 92.9 min
+
+ep  38 | loss 0.368 / 1.131 | mIoU 0.769 / 0.612 | OA 0.791 | 95.3 min
+
+ep  39 | loss 0.370 / 1.178 | mIoU 0.768 / 0.611 | OA 0.785 | 98.0 min
+
+ep  40 | loss 0.371 / 1.196 | mIoU 0.767 / 0.608 | OA 0.785 | 100.6 min
+
+ep  41 | loss 0.368 / 1.117 | mIoU 0.769 / 0.608 | OA 0.787 | 103.1 min
+
+ep  42 | loss 0.365 / 1.092 | mIoU 0.770 / 0.613 | OA 0.783 | 105.4 min
+
+ep  43 | loss 0.364 / 1.082 | mIoU 0.772 / 0.618 | OA 0.791 | 108.5 min
+
+ep  44 | loss 0.362 / 1.123 | mIoU 0.772 / 0.617 | OA 0.788 | 112.0 min
+
+ep  45 | loss 0.355 / 1.134 | mIoU 0.776 / 0.618 | OA 0.787 | 115.3 min
+
+ep  46 | loss 0.358 / 1.237 | mIoU 0.773 / 0.604 | OA 0.782 | 118.5 min
+
